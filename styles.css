@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(236, 253, 245, 0.3);
+    color: #2c3e50;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: white;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1rem 0;
+}
+
+.nav-container {
+    max-width: 72rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 2.5rem;
+    width: auto;
+}
+
+.logo-text {
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
+    color: #2f6e44;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    color: #2f6e44;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: #4ade80;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    padding: 4rem 0;
+}
+
+.hero-content {
+    max-width: 48rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: #2f6e44;
+    margin-bottom: 1.5rem;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-top: 1.5rem;
+}
+
+.product-card h2 {
+    font-size: 1.5rem;
+    color: #2f6e44;
+    margin-bottom: 0.5rem;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #d1fae5;
+    color: #2f6e44;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    margin-top: 1rem;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .nav-links {
+        display: none; /* Optional: add mobile menu toggle */
+    }
+}
